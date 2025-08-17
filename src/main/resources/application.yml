@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ai-code-mother-backend
+    name: yu-ai-code-mother-backend
   # session 配置
   session:
     store-type: redis
@@ -45,7 +45,7 @@ langchain4j:
   open-ai:
     chat-model:
       base-url: https://api.deepseek.com
-      api-key: <Your API Key>
+      api-key: sk-86aa407d942048eaba37467393d0ea0e
       model-name: deepseek-chat
 #      strict-json-schema: true
 #      response-format: json_object
@@ -54,7 +54,7 @@ langchain4j:
       log-responses: true
     streaming-chat-model:
       base-url: https://api.deepseek.com
-      api-key: <Your API Key>
+      api-key: sk-86aa407d942048eaba37467393d0ea0e
       model-name: deepseek-chat
       max-tokens: 8192
       log-requests: true
