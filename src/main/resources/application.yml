@@ -29,7 +29,7 @@ langchain4j:
   open-ai:
     chat-model:
       base-url: https://api.deepseek.com
-      api-key: <Your API Key>
+      api-key:
       model-name: deepseek-chat
       strict-json-schema: true
       response-format: json_object
@@ -38,7 +38,7 @@ langchain4j:
       log-responses: true
     streaming-chat-model:
       base-url: https://api.deepseek.com
-      api-key: <Your API Key>
+      api-key:
       model-name: deepseek-chat
       max-tokens: 8192
       log-requests: true
